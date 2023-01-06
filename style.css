@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.all{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+body .logo{
+    width: 200px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo .logoTitle{
+    font-weight: lighter;
+    color: green;
+    text-align: center;
+}
+
+.logoTitle .otherColor{
+    font-weight: bold;
+    color: red;
+}
+
+.menu{
+    padding: 0;
+    margin: 0;
+    width: 500px;
+    
+}
+
+.menu .allFruits{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fruit{
+    font-weight: lighter;
+    font-size: 18px;
+    height: 40px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.fruit:hover{
+    background-color: green;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.fruit:active{
+    background-color: transparent;
+    transition: 0s;
+}
